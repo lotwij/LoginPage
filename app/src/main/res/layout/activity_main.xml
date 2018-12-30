@@ -26,16 +26,5 @@
                 android:layout_height="wrap_content"/>
 
     </LinearLayout>
-    <include
-            android:id="@+id/registration_layout"
-            android:visibility="gone"
-            layout="@layout/user_registration"/>
-
-    <include
-            android:id="@+id/login_layout"
-            android:visibility="gone"
-            layout="@layout/login"/>
-
-
 
 </RelativeLayout>
